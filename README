@@ -7,4 +7,5 @@ This is a repository of the resourse material required for the analysis of the m
 Below is a documentation of each of the files in this repository
 1. .gitignore: This file lists all the files and extensions that are not to be cloned on github
 2. LICENSE: The copyright of this repository
+3. Flowchart_SL_identification: This is the first draft of the flowchart for working with camera trap images to identify the individual snow leopards 
 
