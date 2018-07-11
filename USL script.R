@@ -1,16 +1,9 @@
 library(camtrapR)
-#library(dplyr)
-#library(secr)
-
-#rm(list=ls()) #removes objects
-#.rs.restartR() #restarts R
+library(secr)
 
 ################################# Organizing Raw Images ############################################
 
-getwd()
-
 #vector containing subfolders for locations
-
 location<-c("/2011-12", "/2013-14 left bank", "/2013 left bank", "/2014 right bank", "/2015", "/2015 left bank", "/2016", "/2017", "/renamed2015.left.bank")
 
 setwd(paste0("/home/kulbhushan/Dropbox (Snow Leopard Trust)/Camera trap database/Upper Spiti Landscape",location[2]))
