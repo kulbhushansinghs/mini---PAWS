@@ -66,7 +66,7 @@ species_capture_plot <- function(species_name){
     scalebar(hp, dist = 50,dd2km = T)+
     blank()
   
-  png(paste0('October2018report/Output/',species_name,'_capture.png'),width = 1000,height = 750, res = 100)
+  png(paste0('Output/',species_name,'_capture.png'),width = 1000,height = 750, res = 100)
 
   print(capture_plot)
   
@@ -99,7 +99,7 @@ sp_ung <- st_as_sf(sp_ung, coords = c('long','lat'))
 
 st_crs(sp_ung) <- 4326
 
-png('October2018report/Output/ungulates.png',width = 1000,height = 750, res = 100)
+png('Output/ungulates.png',width = 1000,height = 750, res = 100)
 
 ggplot() +
   geom_sf(data = hp, fill = 'grey70')+
